@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+int i,n;
+printf("enter the number:");
+scanf("%d",&n);
+printf("number series:");
+for(i=1;i<=n;i++)
+{
+printf("%d",i);
+}
+return 0;
+}
+
